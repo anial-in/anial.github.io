@@ -4,7 +4,7 @@ html { scroll-behavior: smooth; }
   margin: 0px;
   padding: 0px; 
   box-sizing: border-box;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 nav {
@@ -16,7 +16,7 @@ nav {
 }
 
 nav div { 
-  padding: 15px; 
+  padding: 1.1rem; 
   cursor: pointer;
   font-size: 1.1rem;
   text-align: center;
@@ -52,6 +52,28 @@ header div {
 
 #photo {
   display: flex;
+}
+
+article {
+  margin-inline: 11rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > div {
+  padding: 0.5rem;
+}
+
+#terms-and-privacy {
+  display: flex;
+  justify-content: center;
+}
+
+#terms-and-privacy div {
+  margin-inline: 0.5rem;
 }
 
 
