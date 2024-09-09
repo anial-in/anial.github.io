@@ -4,7 +4,7 @@ html { scroll-behavior: smooth; }
   margin: 0px;
   padding: 0px; 
   box-sizing: border-box;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 a { text-decoration: none; }
@@ -20,7 +20,7 @@ nav {
 }
 
 #logo {
-  width: 5rem;
+  width: 5.1rem;
   height: auto;
 }
 
@@ -44,20 +44,6 @@ nav {
 #nav-items div:hover {
   background-color: rgba(121, 122, 214, 0.553);
 }
-
-/* #anialLogo {
-  width: 11.1rem;
-  margin: 6px;
-} */
-
-/* header {
-  display: flex;
-  flex-flow: row wrap;
-} */
-
-/* header div {
-  padding: 6px;
-} */
 
 #procrastination {
   width: 23rem;
@@ -89,6 +75,3 @@ footer > div {
 #terms-and-privacy div {
   margin-inline: 0.5rem;
 }
-
-
-
