@@ -6,7 +6,7 @@ html {
   margin: 0px;
   padding: 0px; 
   box-sizing: border-box;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 a { 
@@ -68,6 +68,10 @@ footer {
   align-items: center;
 }
 
+#copyright {
+  margin-left: 0.5rem;
+}
+
 #terms-and-privacy {
   display: flex;
   justify-content: center;
@@ -83,8 +87,8 @@ footer {
 }
 
 #linkedin, #github, #leetcode, #gmail {
-  width: 28px;
-  margin: 0.2rem;
+  width: 26px;
+  margin: 0.21rem;
 }
 
 #linkedin-div {
