@@ -71,17 +71,18 @@ nav {
   display:none;
 }
 
-#procrastination {
+#header-image {
   width: 23rem;
   height: 21rem;
 }
 
-#photo {
+header {
   display: flex;
 }
 
 article {
   margin-inline: 11rem;
+  margin-bottom: 1.5rem;
 }
 
 footer {
@@ -90,6 +91,14 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(230, 199, 199);
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #copyright {
@@ -160,20 +169,20 @@ article {
   padding-top: 20px;
 }
 
-@media only screen and (max-width: 540px) {
+/* @media only screen and (max-width: 540px) {
 
   nav {
     height: 4rem;
     width: 100%;
     /* border: 10px solid red; */
-    margin-right: 0px;
+    /* margin-right: 0px;
     padding: 0px;
 
     display: flex;
     justify-content: space-between;
-  }
+  } */
 
-  #logo {
+  /* #logo {
     height: 100%;
     width: 4rem;
   }
@@ -196,5 +205,36 @@ article {
     height: 45%;
     border: 3px solid pink;
     display: block;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+
+  header {
+    flex-direction: column-reverse;
+  }
+
+  #heading {
+    margin-top: 30px;
+  }
+
+  header figure {
+    display: flex;
+    justify-content: center;
+  }
+  
+  article {
+    margin-inline: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer > div {
+    padding: 7px;
   }
 }
