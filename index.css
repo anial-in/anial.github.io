@@ -159,7 +159,7 @@ article {
   padding-top: 20px;
 }
 
-@media only screen and (max-width: 540px) {
+/* @media only screen and (max-width: 540px) {
 
   nav {
     height: 4rem;
@@ -192,7 +192,7 @@ article {
     height: 45%;
     border: 3px solid pink;
     display: block;
-    /* display:none; */
+    display:none;
   }
   
-}
+}*/
